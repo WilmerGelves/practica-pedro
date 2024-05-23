@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background:  linear-gradient(#E6E6E6,#808080)
+}
+
+.contenedor{
+    margin: 40px 40px;
+    width: 80%;
+    display: flex;
+    justify-content:center;
+}
+
+.principal{
+    border: 2px solid black;
+    padding: 40px 40px;
+    width: 50%;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 120px; 
+}
+.icon{
+    width: 17px;
+}
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+    color: black;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+
+.img-cuerpo{
+    width: 400px;
+}
+
+.contenedor-inferior{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contenedor-inferior h2{
+    font-size: 20px;
+}
+.contenedor-inferior p{
+    font-weight: bold;
+}
+.metrolinea{
+    background-color: #D5FF43;
+    border-radius: 10px;
+    padding: 5px;
+    height: 70px;
+}
+.metrolinea a{
+   text-decoration: none;
+   color: black;
+   align-items: center;
+   text-align: center;
+}
+.metrolinea img{
+    width: 100px;
+}
+
+.extra{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.numeros{
+    margin-top: 40px;
+    text-align: center;
+}
+.numeros p:first-child{
+    color: rgb(100, 95, 95);
+}
+.numeros p:last-child{
+    color: rgb(100, 95, 95);
+}
+
+.icono-inferior >img{
+   width:17px;
+}
+
+
+
+
+
