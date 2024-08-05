@@ -1,1 +1,3 @@
-Esta es una práctica de diagnóstico. La idea es desarrollar un layaut idéntico al proporcionado. 
+> [!NOTE:]
+>Esta es una práctica diagnóstica. La idea es desarrollar un layaut idéntico al proporcionado. 
+
